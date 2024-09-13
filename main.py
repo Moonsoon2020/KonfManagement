@@ -4,7 +4,6 @@ from datetime import time, datetime
 import json
 # from importlib.metadata import files
 
-import archive
 import sys
 import yaml
 
@@ -45,7 +44,7 @@ class Base:
 
     def set_permission(self, permission, user, status):
         users = {'q': 1, "a":0, "b": 2}
-        perm = {'w':2, "r":1, "s":0}
+        perm = {'w':2, "r":1, "x":0}
         self.permission[users[user] * 3 + perm[permission]] = status
 
 
@@ -103,11 +102,13 @@ def main():
         history.append(Action(user, command, param).json())
         if command == "ls":
             length = []
-
+            if len(kon.childs):
+                print("0 files")
+                continue
             for i in kon.childs:
                 length.append(len(i.title))
             print(" " * (max(length) + 2) + 'a  q  b  ')
-            print(" " * (max(length) + 2) + 'srwsrwsrw')
+            print(" " * (max(length) + 2) + 'xrwxrwxrx')
             for i in kon.childs:
                 print(i.title + " " * (max(length) - len(i.title) + 2) + ''.join(map(str, i.permission)))
         elif command == "cd":
