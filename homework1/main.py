@@ -1,10 +1,6 @@
-import os
 import zipfile
-from datetime import time, datetime
+from datetime import datetime
 import json
-# from importlib.metadata import files
-
-import sys
 import yaml
 
 history = []
@@ -12,20 +8,24 @@ all_f = []
 path = ['archive']
 directory = []
 
+
 class Action:
     def __init__(self, user, command, param):
         self.user = user
         self.command = command
         self.param = param
         self.time = str(datetime.now())
+
     def json(self):
         return {"user": self.user, "command": self.command, "time": self.time, "param": self.param}
+
 
 class Base:
     def __init__(self, title):
         self.title = title
         self.permission = [1, 1, 1, 1, 1, 0, 0, 0, 0]
         self.childs = []
+
     def add_child(self, el, a):
         if el == self:
             return
@@ -37,14 +37,15 @@ class Base:
                 a.pop(0)
                 child.add_child(el, a)
                 return
+
     def get_child(self, title):
         for child in self.childs:
             if child.title == title:
                 return child
 
     def set_permission(self, permission, user, status):
-        users = {'q': 1, "a":0, "b": 2}
-        perm = {'w':2, "r":1, "x":0}
+        users = {'q': 1, "a": 0, "b": 2}
+        perm = {'w': 2, "r": 1, "x": 0}
         self.permission[users[user] * 3 + perm[permission]] = status
 
 
@@ -53,6 +54,7 @@ def check(elem1, elem2):
         if elem1[j] != elem2[j]:
             return False
     return True
+
 
 def find_file(text):
     global path, directory
@@ -82,7 +84,7 @@ def rep(x):
 
 def main():
     global path
-    with open('konf.yaml') as f:
+    with open('homework1/konf.yaml') as f:
         templates = yaml.safe_load(f)
 
     files = templates['path_vm'] + "\\archive.zip"
@@ -102,7 +104,7 @@ def main():
         history.append(Action(user, command, param).json())
         if command == "ls":
             length = []
-            if len(kon.childs):
+            if len(kon.childs) == 0:
                 print("0 files")
                 continue
             for i in kon.childs:
