@@ -8,6 +8,13 @@ all_f = []
 path = ['archive']
 directory = []
 
+def clear():
+    global history, all_f, path, directory
+    history = []
+    all_f = []
+    path = ['archive']
+    directory = []
+
 
 class Action:
     def __init__(self, user, command, param):
@@ -82,9 +89,9 @@ def rep(x):
     return x.split('/')
 
 
-def main():
+def main_c():
     global path
-    with open('homework1/konf.yaml') as f:
+    with open('konf.yaml') as f:
         templates = yaml.safe_load(f)
 
     files = templates['path_vm'] + "\\archive.zip"
@@ -98,7 +105,8 @@ def main():
     kon = all_f[0]
     while True:
         try:
-            command, *param = input(f"[{user}] : {'/'.join(path)} :").split()
+            print(f"[{user}] : {'/'.join(path)} :", end='')
+            command, *param = input().split()
         except ValueError:
             continue
         history.append(Action(user, command, param).json())
@@ -169,7 +177,8 @@ def main():
     file = open(templates["path_log"] + '\\history.json', 'w')
     json.dump(history, file)
     file.close()
+    clear()
 
 
 if __name__ == '__main__':
-    main()
+    main_c()
