@@ -1,0 +1,34 @@
+digraph express_dependencies {
+
+label="express";
+        color=blue;
+        "express" -> "accepts";
+        "express" -> "body-parser";
+        "express" -> "cookie-parser";
+        "express" -> "content-disposition";
+        "express" -> "content-type";
+        "express" -> "debug";
+        "express" -> "depd";
+        "express" -> "encodeurl";
+        "express" -> "escape-html";
+        "express" -> "etag";
+        "express" -> "finalhandler";
+        "express" -> "fresh";
+        "express" -> "merge-descriptors";
+        "express" -> "methods";
+        "express" -> "on-finished";
+        "express" -> "parseurl";
+        "express" -> "path-to-regexp";
+        "express" -> "proxy-addr";
+        "express" -> "qs";
+        "express" -> "range-parser";
+        "express" -> "safe-buffer";
+        "express" -> "send";
+        "express" -> "serve-static";
+        "express" -> "setprototypeof";
+        "express" -> "statuses";
+        "express" -> "type-is";
+        "express" -> "utils-merge";
+        "express" -> "vary";
+
+}

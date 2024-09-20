@@ -1,0 +1,10 @@
+digraph dependencies {
+    label="matplotlib";
+    color=blue;
+    "matplotlib" -> "pyparsing";
+    "matplotlib" -> "cycler";
+    "matplotlib" -> "numpy";
+    "matplotlib" -> "pillow";
+    "matplotlib" -> "kiwisolver";
+    "matplotlib" -> "python-dateutil";
+}
