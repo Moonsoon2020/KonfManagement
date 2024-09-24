@@ -28,13 +28,22 @@ def get_npm_dependencies(package_name):
 def get_transitive_dependencies(package_name, collected):
     if package_name in collected:
         return collected
-    dependencies = get_npm_dependencies(package_name)
-    collected[package_name] = dependencies
-    for dep in dependencies:
-        get_transitive_dependencies(dep, collected)
-    return collected
+    try:
+        dependencies = get_npm_dependencies(package_name)
+        collected[package_name] = dependencies
+        for dep in dependencies:
+            get_transitive_dependencies(dep, collected)
+        return collected
+    except Exception as e:
+        print(e)
+        return collected
 
 
-# Получение всех зависимостей, включая транзитивные:
-all_dependencies = get_transitive_dependencies(sys.argv[1], {})
-print(generate_plantuml(all_dependencies))
+def main():
+    # Получение всех зависимостей, включая транзитивные:
+    all_dependencies = get_transitive_dependencies(sys.argv[1], {})
+    print(generate_plantuml(all_dependencies))
+
+
+if __name__ == '__main__':
+    main()

@@ -19,10 +19,7 @@ npm show express
 
 Сформировать graphviz-код и получить изображения зависимостей matplotlib и express.
 ```bash
-dot -Tpng $1 -o $2
 ```
-![dependencies.png](dependencies.png)
-![matplotlib_dependencies.png](matplotlib_dependencies.png)
 ## Задача 4
 
 **Следующие задачи можно решать с помощью инструментов на выбор:**
