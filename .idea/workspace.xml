@@ -359,7 +359,7 @@
       <workItem from="1727276105357" duration="27000" />
       <workItem from="1727276660287" duration="25000" />
       <workItem from="1727437734334" duration="5458000" />
-      <workItem from="1727527804270" duration="7881000" />
+      <workItem from="1727527804270" duration="8993000" />
     </task>
     <task id="LOCAL-00001" summary="домашнее задание 1 эмулятор консоли">
       <option name="closed" value="true" />
@@ -489,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727534236717</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add homework3 all">
+      <option name="closed" value="true" />
+      <created>1727546720928</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727546720928</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,12 +528,13 @@
     <MESSAGE value="homework2" />
     <MESSAGE value="homework2 test + readme homework1 readme" />
     <MESSAGE value="add readdme and general homework3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add readdme and general homework3" />
+    <MESSAGE value="add homework3 all" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework3 all" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/konfManagement$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1727450414157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework2" />
     <SUITE FILE_PATH="coverage/konfManagement$.coverage" NAME=" Coverage Results" MODIFIED="1727204356566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework2" />
-    <SUITE FILE_PATH="coverage/konfManagement$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1727546430759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework3" />
+    <SUITE FILE_PATH="coverage/konfManagement$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1727547444278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework3" />
     <SUITE FILE_PATH="coverage/konfManagement$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1727450373899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework1" />
     <SUITE FILE_PATH="coverage/konfManagement$main.coverage" NAME="main Coverage Results" MODIFIED="1727167083035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/konfManagement$to.coverage" NAME="to Coverage Results" MODIFIED="1726849149599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

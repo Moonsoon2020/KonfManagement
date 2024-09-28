@@ -8,7 +8,7 @@ def parser(inp: str):
     inp = inp[:-1]
     inp = inp.split(' := ')
     inp[0] = inp[0].strip()
-    if re.match(r'\$"[a-z_0-9A-Z`!#%^&*()]*"', inp[1].strip()):
+    if re.match(r'\$"[_a-zA-Z1-90`!#%^&*()]*"', inp[1].strip()):
         return inp[0], inp[1][2:-1]
     if inp[1].strip() == "begin":
         return inp[0], {}
