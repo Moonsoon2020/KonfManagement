@@ -64,6 +64,7 @@
     "Python.atchive.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
     "Python.main.executor": "Run",
     "Python.test.executor": "Run",
     "Python.to.executor": "Run",
@@ -100,7 +101,7 @@
       <command value="pip show matplotlib" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="konfManagement" />
       <option name="ENV_FILES" value="" />
@@ -139,6 +140,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="konfManagement" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework3/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,38 +294,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="konfManagement" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework1/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.to" />
-      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.main (3)" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (2)" />
       <item itemvalue="Python tests.Python tests for test.Test" />
       <item itemvalue="Python tests.Python tests for test.Test.test_2" />
-      <item itemvalue="Python tests.Python tests in test.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python tests.Python tests for test.Test" />
         <item itemvalue="Python tests.Python tests for test.Test.test_2" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +353,13 @@
       <workItem from="1727107873568" duration="4707000" />
       <workItem from="1727166275533" duration="14000" />
       <workItem from="1727167012538" duration="118000" />
-      <workItem from="1727202508473" duration="1938000" />
+      <workItem from="1727202508473" duration="2031000" />
+      <workItem from="1727259448401" duration="126000" />
+      <workItem from="1727275990513" duration="102000" />
+      <workItem from="1727276105357" duration="27000" />
+      <workItem from="1727276660287" duration="25000" />
+      <workItem from="1727437734334" duration="5458000" />
+      <workItem from="1727527804270" duration="5557000" />
     </task>
     <task id="LOCAL-00001" summary="домашнее задание 1 эмулятор консоли">
       <option name="closed" value="true" />
@@ -443,7 +457,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727111817854</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="homework2 test + readme homework1 readme">
+      <option name="closed" value="true" />
+      <created>1727204542206</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727204542206</updated>
+    </task>
+    <task id="LOCAL-00014" summary="homework2 test + readme homework1 readme">
+      <option name="closed" value="true" />
+      <created>1727204557600</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727204557600</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,12 +502,14 @@
     <MESSAGE value="add prac2 1-4+-" />
     <MESSAGE value="add prac2 1-4 + homework2" />
     <MESSAGE value="homework2" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework2" />
+    <MESSAGE value="homework2 test + readme homework1 readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework2 test + readme homework1 readme" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/konfManagement$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1727204446489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework2" />
+    <SUITE FILE_PATH="coverage/konfManagement$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1727450414157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework2" />
     <SUITE FILE_PATH="coverage/konfManagement$.coverage" NAME=" Coverage Results" MODIFIED="1727204356566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework2" />
-    <SUITE FILE_PATH="coverage/konfManagement$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1727204433696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework1" />
+    <SUITE FILE_PATH="coverage/konfManagement$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1727533239736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework3" />
+    <SUITE FILE_PATH="coverage/konfManagement$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1727450373899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework1" />
     <SUITE FILE_PATH="coverage/konfManagement$main.coverage" NAME="main Coverage Results" MODIFIED="1727167083035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/konfManagement$to.coverage" NAME="to Coverage Results" MODIFIED="1726849149599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/konfManagement$atchive.coverage" NAME="atchive Coverage Results" MODIFIED="1725953823332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

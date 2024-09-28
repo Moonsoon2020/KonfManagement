@@ -105,7 +105,7 @@ def main_c():
     kon = all_f[0]
     while True:
         try:
-            print(f"[{user}] : {'/'.join(path)} :", end='')
+            print(f"[{templates['user']}] : {'/'.join(path)} :", end='')
             command, *param = input().split()
         except ValueError:
             continue
@@ -146,14 +146,14 @@ def main_c():
                 continue
             if param[0].count('+') == 1:
                 users, perms = param[0].split('+')
-                for user in users:
+                for user_ in users:
                     for perm in perms:
-                        file.set_permission(perm, user, 1)
+                        file.set_permission(perm, user_, 1)
             elif param[0].count('-') == 1:
                 users, perms = param[0].split('-')
-                for user in users:
+                for user_ in users:
                     for perm in perms:
-                        file.set_permission(perm, user, 0)
+                        file.set_permission(perm, user_, 0)
             else:
                 print('error')
         elif command == "history":
